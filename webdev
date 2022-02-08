@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> 
+	<title> AH Webdev W3.1 </title>
+</head>
+
+<body>
+	<h1> Responses to selected texts </h1>
+
+	<main>
+		<h3> As We May Think </h3>
+		<p>
+			On the topic of improving access to information through the use of technology, a great deal of information is accessed as needed. This data compiled from the web of disparate sources by the search engine giant of Google. These far-flung fragments of knowledge are often gathered in the crowd-sourced research of Wikipedia, the largest repository of compiled knowledge the world has yet borne witness to. 
+		</p>
+
+		<h3> Long Live the Web </h3>
+		<p>
+			Net neutrality and the the right to freely access the entirety of the web from any location is a fundamental principle of allowing the web to truly enhance human communication. Technology has become an extension to many people's social presence. With the advent of a pandemic, people rely on the web now more than ever before to remain connected. Geopolitical borders broadly limit the possible communication of any common person, and a neutral web resists the attempts of political entities to control information.
+		</p>
+	</main>
+	<img src="31p.png" alt="You expected an image, but it was me!">
+</body>
+
+</html>
