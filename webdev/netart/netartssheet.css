@@ -6,6 +6,7 @@
   width: auto;
   
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .gallery:hover{
@@ -25,6 +26,21 @@
 .header{
 	color: blue;
 	text-decoration: underline;
+}
+
+.g2{
+	margin: 15px;
+	border: 1px solid #ccc;
+	float: left;
+	width: auto;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.g2 img{
+	width: 200px;
+	height: auto;
 }
 
 /* <!-- increase margin to accomidate header --> */
