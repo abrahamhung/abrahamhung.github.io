@@ -22,8 +22,8 @@ a{
 	display: inline;	
 	color: black;
 }
-a:link{}
-a:visited{}
+/* a:link{}
+a:visited{} */
 a:hover{
 	text-decoration: underline;
 	display:inline;
@@ -67,6 +67,7 @@ button{
     color: black;
     text-align: center;
     margin: 20px 40px;
+	background-color: gainsboro;
 }
 button:hover{
 	background-color: lightblue;
