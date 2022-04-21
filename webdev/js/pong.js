@@ -73,8 +73,6 @@ $(document).ready(function(){
     }
 
 
-
-
     var ball = new gBall(objball)
     var p1 = new gPlayer(objp1)
     var p1c = new collide(ball, p1)
@@ -93,13 +91,11 @@ $(document).ready(function(){
             p1.score++;
             ball.reset();
             $("#scorel").html(p1.score);
-            console.log(p1.score);
         }
         if(ball.x > p2.x){
             p2.score++;
             ball.reset();
             $("#scorer").html(p2.score);
-            console.log(p2.score);
         }
 
         ball.yedge();
