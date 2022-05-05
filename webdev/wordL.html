@@ -1,0 +1,24 @@
+<html>
+	<head> 
+		<title> AH Webdev wordle </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/wordL.js" defer></script>
+        <link rel="stylesheet" href="css/wordL.css">
+        <style>
+        </style>
+    </head>
+
+    <body>
+
+        <form id="frm1" action="javascript:procguess();">
+            <label type="label" for="guess">funny word here: </label>
+            <input type="text" id="guess" name="guess"><br>
+        </form>
+        <button onclick="procguess()">if you don't like pressing the enter key, here's a button that does the same thing</button>
+        
+        <div class="board" id="board"></div>
+        
+    </body>
+</html>
