@@ -67,7 +67,7 @@ function checkGuess (guessString) {
             rightGuess[letterPosition] = "#"
         }
 
-        let delay = 250 * i
+        let delay = 50 * i
         setTimeout(()=> {
             //shade box
             box.style.backgroundColor = letterColor
@@ -81,7 +81,6 @@ function checkGuess (guessString) {
     } else {
         guessesRemaining -= 1;
         guessString = [];
-        nextLetter = 0;
 
         if (guessesRemaining === 0) {
             alert(`The right word was: "${solution}"`)
